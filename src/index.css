@@ -12,3 +12,21 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+
+:root {
+	--color-primary: #7380cc;
+	--color-info-dark: #7d8da1;
+	--color-info-light: #dce1eb;
+	--color-white: #fff;
+	--color-dark: #363949;
+	--color-light: rgba(132, 139, 200, 0.18);
+	--color-primary-variant: #677483; 
+	--color-red: #ff7782;
+	--color-green: #42f1b6;
+	--color-yellow: #ffbb55;
+	--color-background: #f6f6f6; 
+}
+
+.red {
+	color: var(--color-red);
+}
