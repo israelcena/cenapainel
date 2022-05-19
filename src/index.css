@@ -2,12 +2,12 @@
 
 :root {
 	--color-primary: #7380cc;
+	--color-primary-variant: #677483;
 	--color-info-dark: #7d8da1;
 	--color-info-light: #dce1eb;
 	--color-white: #fff;
 	--color-dark: #363949;
 	--color-light: rgba(132, 139, 200, 0.18);
-	--color-primary-variant: #677483;
 	--color-red: #ff7782;
 	--color-green: #42f1b6;
 	--color-yellow: #ffbb55;
@@ -73,17 +73,37 @@ small {
 	font-size: 0.8rem;
 }
 
+p {
+	color: var(--color-primary-variant);
+}
+
+b {
+	color: var(--color-dark);
+}
+
 img {
 	display: block;
 	width: 100%;
 }
 
-.red {
+.text-muted {
+	color: var(--color-info-dark);
+}
+
+.text-primary {
+	color: var(--color-primary);
+}
+
+.text-red {
 	color: var(--color-red);
 }
 
-.text-muted {
-	color: var(--color-info-dark);
+.text-green {
+	color: var(--color-green);
+}
+
+.text-yellow {
+	color: var(--color-yellow);
 }
 
 .profile-image {
