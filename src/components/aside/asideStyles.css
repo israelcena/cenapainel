@@ -1,0 +1,30 @@
+aside {
+	height: 100vh;
+}
+
+img {
+	width: 2.5rem;
+}
+
+aside .top {
+	background-color: var(--color-white);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1.4rem;
+}
+
+aside .logo {
+	display: flex;
+	gap: 0.5rem;
+}
+
+aside .close {
+	display: none;
+}
+
+aside .close-icon {
+	font-size: 1.5rem;
+	color: var(--color-info-dark);
+}
+

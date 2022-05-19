@@ -1,9 +1,9 @@
-import "./App.css";
+import Aside from "./aside/aside";
 
 export default function App() {
 	return (
-		<div>
-			<h1>Hello World!</h1>
+		<div className="container">
+			<Aside />
 		</div>
 	);
 }
