@@ -62,6 +62,14 @@
 	font-size: 2rem;
 }
 
+.sidebar .message-count {
+	background-color: var(--color-red);
+	color: var(--color-white);
+	padding: .2rem 1rem;
+	font-size: 11px;
+	border-radius: var(--border-radius-1);
+}
+
 .scale-up-hor-left {
 	-webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
 		both;

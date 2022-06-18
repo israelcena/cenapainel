@@ -15,6 +15,7 @@ export default function Sidebar() {
 					<a key={item.id} className="nav-itens" href={item.path}>
 						<MaterialDesign.MdOutlineDashboard className="menu-icon" />
 						<h3>{item.name}</h3>
+						{item.alert ? <span className="message-count">{item.alert}</span> : null}
 					</a>
 				);
 			})}
