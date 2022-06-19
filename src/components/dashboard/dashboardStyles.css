@@ -34,6 +34,5 @@
 
 .insights > div:hover {
 	box-shadow: var(--box-shadow-light);
-	transform: scale(1.01);
-	cursor: pointer;
+	transform: translateY(-2px);
 }
