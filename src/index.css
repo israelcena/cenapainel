@@ -91,23 +91,23 @@ img {
 }
 
 .text-muted {
-	color: var(--color-info-dark);
+	color: var(--color-info-dark) !important;
 }
 
 .text-primary {
-	color: var(--color-primary);
+	color: var(--color-primary) !important;
 }
 
 .text-red {
-	color: var(--color-red);
+	color: var(--color-red) !important;
 }
 
 .text-green {
-	color: var(--color-green);
+	color: var(--color-green) !important;
 }
 
 .text-yellow {
-	color: var(--color-yellow);
+	color: var(--color-yellow) !important;
 }
 
 .profile-image {
