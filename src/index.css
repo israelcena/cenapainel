@@ -40,7 +40,8 @@ body {
 	height: 100vh;
 	background: var(--color-background);
 	user-select: none;
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
+	background-color: var(--color-dark);
 }
 
 a {
