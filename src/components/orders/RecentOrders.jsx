@@ -42,6 +42,20 @@ export default function RecentOrders() {
 						<td className="text-yellow">Pago</td>
 						<td className="text-primary">Detalhes</td>
 					</tr>
+					<tr>
+						<td>Mini Drone</td>
+						<td>123456789</td>
+						<td>Cartão de Crédito</td>
+						<td className="text-yellow">Pago</td>
+						<td className="text-primary">Detalhes</td>
+					</tr>
+					<tr>
+						<td>Mini Drone</td>
+						<td>123456789</td>
+						<td>Cartão de Crédito</td>
+						<td className="text-yellow">Pago</td>
+						<td className="text-primary">Detalhes</td>
+					</tr>
 				</tbody>
 			</table>
 			<a href="#">Amostrar Todas</a>
