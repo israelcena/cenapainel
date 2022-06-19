@@ -44,6 +44,10 @@ body {
 	background-color: var(--color-dark);
 }
 
+main {
+	margin-top: 1.4rem;
+}
+
 a {
 	color: var(--color-dark);
 	text-decoration: none;
