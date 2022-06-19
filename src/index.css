@@ -41,7 +41,7 @@ body {
 	background: var(--color-background);
 	user-select: none;
 	overflow-x: hidden;
-	background-color: var(--color-dark);
+	/* background-color: var(--color-dark); */
 }
 
 main {
