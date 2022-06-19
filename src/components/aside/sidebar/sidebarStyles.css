@@ -65,7 +65,7 @@
 .sidebar .message-count {
 	background-color: var(--color-red);
 	color: var(--color-white);
-	padding: .2rem 1rem;
+	padding: 0.2rem 1rem;
 	font-size: 11px;
 	border-radius: var(--border-radius-1);
 }
