@@ -29,11 +29,11 @@
 	border-radius: var(--card-border-radius);
 	margin-top: 1rem;
 	box-shadow: var(--box-shadow);
-	transition: all 0.3s ease;
+	transition: var(--transition);
 }
 
 .insights > div:hover {
 	box-shadow: var(--box-shadow-light);
-	transform: scale(1.02);
+	transform: scale(1.01);
 	cursor: pointer;
 }
