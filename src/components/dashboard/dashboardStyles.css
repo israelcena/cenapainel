@@ -1,0 +1,39 @@
+.date {
+	display: inline-block;
+	background-color: var(--color-light);
+	border-radius: var(--border-radius-1);
+	margin-top: 1rem;
+	padding: 0.5rem 1.6rem;
+}
+
+.date input[type="date"] {
+	background: transparent;
+	color: var(--color-dark);
+	border: none;
+	font-size: 1.6rem;
+}
+
+.date input[type="date"]:focus {
+	outline: none;
+}
+
+.insights {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6rem;
+}
+
+.insights > div {
+	background: var(--color-white);
+	padding: var(--card-padding);
+	border-radius: var(--card-border-radius);
+	margin-top: 1rem;
+	box-shadow: var(--box-shadow);
+	transition: all 0.3s ease;
+}
+
+.insights > div:hover {
+	box-shadow: var(--box-shadow-light);
+	transform: scale(1.02);
+	cursor: pointer;
+}

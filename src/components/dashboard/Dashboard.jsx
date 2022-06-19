@@ -1,5 +1,8 @@
 import Insight from "./insights/Insight";
 
+// styles
+import "./dashboardStyles.css";
+
 export default function Dashboard() {
 	return (
 		<main>
