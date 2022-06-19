@@ -1,5 +1,5 @@
 // Components
-import Sidebar from "./sidebar/sidebar";
+import Sidebar from "./sidebar/Sidebar";
 
 // icons
 import { MdClose } from "react-icons/md";

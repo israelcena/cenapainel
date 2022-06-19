@@ -1,4 +1,4 @@
-import Aside from "./aside/aside";
+import Aside from "./aside/Aside";
 import Dashboard from "./dashboard/Dashboard";
 
 export default function App() {
