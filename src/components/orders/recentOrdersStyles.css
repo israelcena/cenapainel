@@ -1,0 +1,39 @@
+.recent-order {
+	margin-top: 2rem;
+	/* font-size: 1.2rem; */
+}
+
+.recent-order h2 {
+	margin-bottom: 0.7rem;
+}
+
+.recent-order table {
+	background: var(--color-white);
+	width: 100%;
+	border-radius: var(--card-border-radius);
+	padding: var(--card-padding);
+	text-align: center;
+	box-shadow: var(--box-shadow);
+	transition: var(--transition);
+}
+
+.recent-order table:hover {
+	box-shadow: var(--box-shadow-light);
+}
+
+.recent-order--body td {
+	height: 2.8rem;
+	border-bottom: 1px solid var(--color-light);
+	color: var(--color-info-dark);
+}
+
+.recent-order--body tr:last-child td {
+	border: none;
+}
+
+.recent-order a {
+	color: var(--color-primary);
+	text-align: center;
+	display: block;
+	margin-top: 1rem;
+}

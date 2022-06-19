@@ -3,6 +3,7 @@ import Insight from "./insights/Insight";
 
 // styles
 import "./dashboardStyles.css";
+import RecentOrders from "../orders/RecentOrders";
 
 export default function Dashboard() {
 	return (
@@ -34,6 +35,7 @@ export default function Dashboard() {
 					iconColor={"#42f1b6"}
 				/>
 			</div>
+			<RecentOrders />
 		</main>
 	);
 }
