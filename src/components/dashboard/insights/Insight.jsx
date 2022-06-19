@@ -1,16 +1,14 @@
 import { MdAnalytics } from "react-icons/md";
 export default function Insight({ title, amount, percentage, time }) {
 	return (
-		<>
-			<div className="sales">
-				<MdAnalytics />
-			</div>
-			<div className="centerContent">
-				<div className="insights-text">
+		<div className="insight">
+			<MdAnalytics />
+			<div className="insights--main-content">
+				<div className="insights--text">
 					<h3>{title}</h3>
-					<p className="insights-text--amount">R$ {amount}</p>
+					<p className="insights--text-amount">R$ {amount}</p>
 				</div>
-				<div className="progress">
+				<div className="insights--progress">
 					<svg>
 						<circle cx="38" cy="38" r="36" />
 					</svg>
@@ -19,9 +17,9 @@ export default function Insight({ title, amount, percentage, time }) {
 					</div>
 				</div>
 			</div>
-			<small className="text-muted">
+			<small className="insights--text-muted">
 				<p>{time}</p>
 			</small>
-		</>
+		</div>
 	);
 }
