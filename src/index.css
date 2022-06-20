@@ -44,6 +44,7 @@ body {
 	background: var(--color-background);
 	user-select: none;
 	overflow-x: hidden;
+	font-size: 1.35rem;
 	/* background-color: var(--color-dark); */
 }
 
