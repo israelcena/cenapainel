@@ -1,0 +1,18 @@
+.profile {
+	display: flex;
+	justify-content: end;
+	gap: 1.5rem;
+	text-align: right;
+}
+
+.profile-image {
+	width: auto;
+	height: auto;
+}
+
+.profile img {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	transform: translateY(0.5rem);
+}

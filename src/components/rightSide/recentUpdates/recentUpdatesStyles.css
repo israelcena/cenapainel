@@ -1,0 +1,19 @@
+.recent-updates {
+	margin-top: 1rem;
+}
+
+.recent-updates h2 {
+	margin-bottom: 1rem;
+}
+
+.updates {
+	background: var(--color-white);
+	padding: var(--card-padding);
+	border-radius: var(--card-border-radius);
+	box-shadow: var(--box-shadow);
+	transition: var(--transition);
+}
+
+.updates:hover {
+	box-shadow: var(--box-shadow-light);
+}

@@ -1,0 +1,25 @@
+.theme-toggle {
+	cursor: pointer;
+	background: var(--color-light);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 2.5rem;
+	width: 6rem;
+	border-radius: var(--border-radius-1);
+}
+
+.theme-toggle svg {
+	font-size: 2rem;
+	width: 50%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.toggle--active {
+	background: var(--color-primary);
+	color: var(--color-white);
+	border-radius: var(--border-radius-1);
+}
