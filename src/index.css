@@ -44,7 +44,7 @@ body {
 	background: var(--color-background);
 	user-select: none;
 	overflow-x: hidden;
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	/* background-color: var(--color-dark); */
 }
 
@@ -75,7 +75,7 @@ h4 {
 }
 
 h5 {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 p {
