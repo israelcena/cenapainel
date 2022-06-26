@@ -16,13 +16,13 @@
 	padding: 1.4rem var(--card-padding);
 	border: 2px dashed var(--color-primary);
 	border-radius: var(--border-radius-3);
-	box-shadow: var(--box-shadow);
-	transition: var(--transition);
+	transition: all 0.15s ease-in;
+	overflow: auto;
 }
 
 .add-product:hover {
 	cursor: pointer;
-	box-shadow: var(--box-shadow-light);
+	transform: translateY(-0.7px);
 }
 
 .add-product--icon {
