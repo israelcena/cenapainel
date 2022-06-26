@@ -12,9 +12,10 @@ export default function Aside() {
 		<aside>
 			<div className="top">
 				<div className="logo">
-					<img src="./images/logo.jpg" alt="Logo" />
-					<h3 className="text-muted">
-						Cena<span className="text-primary">Painel</span>
+					<img className="logo-img" src="./images/logo.jpg" alt="Logo" />
+					<h3>
+						<span className="logo--first-text">Cena</span>
+						<span className="text-primary">Painel</span>
 					</h3>
 				</div>
 				<div className="close" id="close-btn">
