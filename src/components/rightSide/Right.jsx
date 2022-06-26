@@ -12,7 +12,7 @@ export default function Right() {
 		<div className="right">
 			<div className="top">
 				<MenuButtons />
-				<Profile />
+				<Profile userName="John Doe" userProfile="Admin" />
 			</div>
 			<RecentUpdates />
 			<SalesAnalytics />

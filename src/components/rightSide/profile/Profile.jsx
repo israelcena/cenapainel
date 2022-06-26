@@ -1,12 +1,13 @@
 import "./profileStyles.css";
 
-export default function Profile() {
+export default function Profile({ userName, userProfile }) {
 	return (
 		<div className="profile">
 			<div className="profile-info">
-				<p>Hey,</p>
-				<h5>John Doe</h5>
-				<small className="text-muted">Admin</small>
+				<p>
+					Hey, <b>{userName}</b>
+				</p>
+				<small className="text-muted">{userProfile}</small>
 			</div>
 			<div className="profile-image">
 				<img
