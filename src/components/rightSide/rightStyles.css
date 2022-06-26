@@ -1,11 +1,10 @@
 .right {
-	margin-top: 1.4rem;
+	margin-top: 2rem;
 }
 
 .right .top {
 	display: flex;
 	justify-content: space-between;
-	gap: 2rem;
 }
 
 #menu-btn {
