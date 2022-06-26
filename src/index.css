@@ -22,7 +22,7 @@
 	--padding: 1.2rem;
 
 	--box-shadow: 0 2rem 3rem var(--color-light);
-	--box-shadow-light: 0 1rem 2rem var(--color-light);
+	--box-shadow-light: 0 0.5rem 2rem var(--color-light);
 
 	--transition: all 0.3s ease;
 }
