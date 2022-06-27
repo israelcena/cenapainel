@@ -1,3 +1,7 @@
+// components
+import Order from "./Order";
+
+// styles
 import "./recentOrdersStyles.css";
 
 export default function RecentOrders() {
@@ -14,48 +18,62 @@ export default function RecentOrders() {
 					</tr>
 				</thead>
 				<tbody className="recent-order--body">
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
-					<tr>
-						<td>Mini Drone</td>
-						<td>123456789</td>
-						<td>Cartão de Crédito</td>
-						<td className="text-yellow">Pago</td>
-						<td className="text-primary">Detalhes</td>
-					</tr>
+					<Order
+						orderName="Mini Drone"
+						orderNumber="123456789"
+						orderPayment="Cartão de Crédito"
+						orderStatus="Pago"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Drone de Pouso"
+						orderNumber="654655"
+						orderPayment="Dinheiro"
+						orderStatus="Pago"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Mega Drone"
+						orderNumber="1235878965"
+						orderPayment="BitCoin"
+						orderStatus="Aguardando Pagamento"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Drone commander"
+						orderNumber="126549541"
+						orderPayment="Dinheiro"
+						orderStatus="Aguardando Pagamento"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Mini Drone"
+						orderNumber="11654655"
+						orderPayment="Dinheiro"
+						orderStatus="Pago"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Drone de Pouso"
+						orderNumber="654655"
+						orderPayment="Dinheiro"
+						orderStatus="Pago"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Mega Drone"
+						orderNumber="11654655"
+						orderPayment="Cartão de Crédito"
+						orderStatus="Pago"
+						orderLink="Detalhes"
+					/>
+					<Order
+						orderName="Drone de Pouso"
+						orderNumber="654655"
+						orderPayment="Boleto Bancário"
+						orderStatus="Aguardando Pagamento"
+						orderLink="Detalhes"
+					/>
 				</tbody>
 			</table>
 			<a href="#">Amostrar Todas</a>
