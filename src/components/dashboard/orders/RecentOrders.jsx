@@ -10,7 +10,7 @@ export default function RecentOrders() {
 			<h2>Recent Orders</h2>
 			<table>
 				<thead>
-					<tr>
+					<tr className="table-title">
 						<th>Nome</th>
 						<th>Numero</th>
 						<th>Pagamento</th>

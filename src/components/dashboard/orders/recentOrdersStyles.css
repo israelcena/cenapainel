@@ -3,7 +3,7 @@
 }
 
 .recent-order h2 {
-	margin-bottom: 0.7rem;
+	margin-bottom: 1rem;
 }
 
 .recent-order table {
@@ -16,12 +16,17 @@
 	transition: var(--transition);
 }
 
+.table-title {
+	height: 4rem;
+	font-size: 1.6rem;
+}
+
 .recent-order table:hover {
 	box-shadow: var(--box-shadow-light);
 }
 
 .recent-order--body td {
-	height: 2.8rem;
+	height: 4rem;
 	border-bottom: 1px solid var(--color-light);
 	color: var(--color-info-dark);
 }
@@ -34,5 +39,5 @@
 	color: var(--color-primary);
 	text-align: center;
 	display: block;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
