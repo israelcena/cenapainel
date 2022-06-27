@@ -1,9 +1,9 @@
 // components
 import Insight from "./insights/Insight";
+import RecentOrders from "./orders/RecentOrders";
 
 // styles
 import "./dashboardStyles.css";
-import RecentOrders from "../orders/RecentOrders";
 
 export default function Dashboard() {
 	return (
